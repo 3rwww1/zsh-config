@@ -1,4 +1,4 @@
-#!/bin/en sh
+#!/bin/bash
 set -e
 
 COLOR_RESET="\e[00m"
