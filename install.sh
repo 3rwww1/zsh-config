@@ -40,11 +40,13 @@ if [ ! -d "${MY_ZSH_INSTALL_DIR}" ]
 then
   echo "${WORK} Creating the installation directory"
   mkdir -p ${MY_ZSH_INSTALL_DIR}
-  git clone ${MY_ZSH_REMOTE}
+  pushd ${MY_ZSH_INSTALL_DIR}
+    git clone ${MY_ZSH_REMOTE}
+  popd
 else
   echo "${WORK} Pulling latest configuration..."
   pushd ${MY_ZSH}
-  git pull ${MY_ZSH_REMOTE}
+    git pull ${MY_ZSH_REMOTE}
   popd
 fi
 
