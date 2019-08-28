@@ -49,8 +49,8 @@ else
 fi
 
 pushd ${MY_ZSH}
-  ln -sf zshrc ~/.zshrc
-  ln -sf zshenv ~/.zshenv
+  ln -sf ${MY_ZSH}/zshrc ~/.zshrc
+  ln -sf ${MY_ZSH}/zshenv ~/.zshenv
   exec zsh
 popd
 
