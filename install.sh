@@ -11,7 +11,7 @@ FAIL="${BOLD}${COLOR_RED}✗${COLOR_RESET}"
 WORK="${BOLD}${COLOR_BLUE}⥁${COLOR_RESET}"
 
 MY_ZSH_INSTALL_DIR=${MY_ZSH_INSTALL_DIR:-"${HOME}/Code/tools/"}
-MY_ZSH="${MY_ZSH_INSTALL_DIR}/zsh-env"
+MY_ZSH="${MY_ZSH_INSTALL_DIR}/zsh-config"
 
 MY_ZSH_REMOTE="https://github.com/3rwww1/zsh-config"
 
